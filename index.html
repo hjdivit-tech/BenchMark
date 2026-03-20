@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BenchMark — Residential & Interiors | Hassan</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Barlow:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ── NAVBAR ── -->
+    <nav id="navbar">
+        <a href="#hero" class="nav-logo">Bench<span>Mark</span></a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#hero" onclick="closeMobile()">Home</a>
+        <a href="#services" onclick="closeMobile()">Services</a>
+        <a href="#projects" onclick="closeMobile()">Projects</a>
+        <a href="#about" onclick="closeMobile()">About</a>
+        <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+        <div class="hero-content">
+            <div class="hero-tag">Hassan, Karnataka · Est. 2012</div>
+            <h1 class="hero-h1">Where Every Space<br><em>Tells Your Story</em></h1>
+            <p class="hero-sub">Premium residential construction & interior design crafted with precision, elegance, and
+                a deep understanding of how you live.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-gold"><span>View Our Work</span></a>
+                <a href="#contact" class="btn-outline">Get a Quote</a>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </section>
+
+    <!-- ── SERVICES ── -->
+    <section id="services">
+        <div class="services-header reveal">
+            <div class="section-tag">What We Do</div>
+            <h2 class="section-title">Built for Living.<br><em>Designed to Inspire.</em></h2>
+            <p>From the foundation to the finishing touches — we handle every aspect of your residential and interior
+                vision.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card reveal reveal-delay-1">
+                <div class="service-num">01</div>
+                <span class="service-icon">🏠</span>
+                <h3>Residential Construction</h3>
+                <p>Custom homes, villas, and apartments built with premium materials, structural integrity, and timely
+                    delivery — from plot to possession.</p>
+                <ul class="service-list">
+                    <li>Custom Bungalows & Villas</li>
+                    <li>Independent Houses</li>
+                    <li>Apartment Buildings</li>
+                    <li>Site Development & Foundation</li>
+                </ul>
+            </div>
+            <div class="service-card reveal reveal-delay-2">
+                <div class="service-num">02</div>
+                <span class="service-icon">🛋️</span>
+                <h3>Interior Design</h3>
+                <p>Full-service interior fit-out that transforms bare spaces into refined, liveable environments —
+                    tailored to your taste and lifestyle.</p>
+                <ul class="service-list">
+                    <li>Living & Bedroom Design</li>
+                    <li>Modular Kitchens</li>
+                    <li>False Ceilings & Lighting</li>
+                    <li>Bespoke Furniture & Joinery</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+        <div class="projects-header">
+            <div>
+                <div class="section-tag reveal">Our Work</div>
+                <h2 class="section-title reveal">Our Work<br><em>Speaks Volumes.</em></h2>
+            </div>
+            <div class="filter-bar reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="Residential">Residential</button>
+                <button class="filter-btn" data-filter="Interiors">Interiors</button>
+            </div>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card reveal" data-category="Residential">
+                <div class="project-img">
+                    <div class="project-overlay"><span class="project-overlay-text">View Project</span></div>
+                </div>
+                <div class="project-info">
+                    <h4>The Arjuna Villa</h4>
+                    <div class="project-meta">
+                        <span class="project-tag">Residential</span>
+                        <span class="project-loc">Hassan, KA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-1" data-category="Interiors">
+                <div class="project-img">
+                    <div class="project-overlay"><span class="project-overlay-text">View Project</span></div>
+                </div>
+                <div class="project-info">
+                    <h4>Sage Living Room</h4>
+                    <div class="project-meta">
+                        <span class="project-tag">Interiors</span>
+                        <span class="project-loc">Hassan, KA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-2" data-category="Residential">
+                <div class="project-img">
+                    <div class="project-overlay"><span class="project-overlay-text">View Project</span></div>
+                </div>
+                <div class="project-info">
+                    <h4>Nandana Residence</h4>
+                    <div class="project-meta">
+                        <span class="project-tag">Residential</span>
+                        <span class="project-loc">Hassan, KA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-1" data-category="Interiors">
+                <div class="project-img">
+                    <div class="project-overlay"><span class="project-overlay-text">View Project</span></div>
+                </div>
+                <div class="project-info">
+                    <h4>Ivory Kitchen Suite</h4>
+                    <div class="project-meta">
+                        <span class="project-tag">Interiors</span>
+                        <span class="project-loc">Hassan, KA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-2" data-category="Residential">
+                <div class="project-img">
+                    <div class="project-overlay"><span class="project-overlay-text">View Project</span></div>
+                </div>
+                <div class="project-info">
+                    <h4>Kaveri Heights</h4>
+                    <div class="project-meta">
+                        <span class="project-tag">Residential</span>
+                        <span class="project-loc">Hassan, KA</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card reveal reveal-delay-3" data-category="Interiors">
+                <div class="project-img">
+                    <div class="project-overlay"><span class="project-overlay-text">View Project</span></div>
+                </div>
+                <div class="project-info">
+                    <h4>The Golden Study</h4>
+                    <div class="project-meta">
+                        <span class="project-tag">Interiors</span>
+                        <span class="project-loc">Hassan, KA</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-left">
+                <div class="section-tag reveal">Our Story</div>
+                <h2 class="section-title reveal">Precision in Every<br><em>Detail.</em></h2>
+                <p class="lead reveal">Since our founding in Hassan, BenchMark has stood for elegance, reliability, and
+                    excellence — whether we're building your dream home or crafting its every interior detail.</p>
+                <p class="reveal">We are a team of architects, engineers, and designers who believe that a home is more
+                    than walls and a roof — it is where memories are made. Our process is collaborative, our standards
+                    are uncompromising, and our commitment to Hassan's families is lifelong.</p>
+                <br>
+                <a href="#contact" class="btn-gold reveal"><span>Start Your Project</span></a>
+            </div>
+            <div class="about-stats">
+                <div class="stat-item reveal">
+                    <div class="stat-num"><span class="counter" data-target="150">0</span><sup>+</sup></div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-1">
+                    <div class="stat-num"><span class="counter" data-target="12">0</span><sup>+</sup></div>
+                    <div class="stat-label">Years of Experience</div>
+                </div>
+                <div class="stat-item reveal reveal-delay-2">
+                    <div class="stat-num"><span class="counter" data-target="500">0</span><sup>+</sup></div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+        <div class="contact-grid">
+            <div class="contact-left">
+                <div class="section-tag reveal">Contact</div>
+                <h2 class="section-title reveal">Let's Build Your<br><em>Dream Space.</em></h2>
+                <p class="reveal">Reach out and let's discuss your vision. We offer free consultations for all
+                    residential and interior projects in Hassan.</p>
+
+                <div class="contact-detail reveal">
+                    <div class="contact-detail-icon">📍</div>
+                    <div class="contact-detail-text">
+                        <strong>Address</strong>
+                        Hassan, Karnataka, India — 573 201
+                    </div>
+                </div>
+                <div class="contact-detail reveal reveal-delay-1">
+                    <div class="contact-detail-icon">📞</div>
+                    <div class="contact-detail-text">
+                        <strong>Phone</strong>
+                        +91 XXXXX XXXXX
+                    </div>
+                </div>
+                <div class="contact-detail reveal reveal-delay-2">
+                    <div class="contact-detail-icon">✉️</div>
+                    <div class="contact-detail-text">
+                        <strong>Email</strong>
+                        info@benchmarkbuilds.in
+                    </div>
+                </div>
+            </div>
+
+            <div class="reveal reveal-delay-1">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="tel" placeholder="+91 XXXXX XXXXX">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="you@email.com">
+                </div>
+                <div class="form-group">
+                    <label>Service Type</label>
+                    <select>
+                        <option value="" disabled selected>Select a service</option>
+                        <option>Residential Construction</option>
+                        <option>Interior Design</option>
+                        <option>Both</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea placeholder="Tell us about your project..."></textarea>
+                </div>
+                <button class="btn-gold" style="width:100%;border:none;cursor:pointer;"><span>Send Message
+                        →</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <div>
+            <div class="footer-logo">Bench<span>Mark</span></div>
+            <div class="footer-tagline">Building Spaces. Defining Lifestyles.</div>
+        </div>
+        <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-copy">© 2025 BenchMark Construction. Hassan, Karnataka.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
